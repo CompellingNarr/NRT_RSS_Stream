@@ -1,10 +1,9 @@
 Bootstrapping the NRT_RSS_Stream project
 ========================================
 
-These are step-by-step notes on how this project was
-created on a Linux workstation using Maven, a local Git
-repository was created, then a remote Git repository
-was created on github.com.
+These are step-by-step notes on how this project was created on a Linux
+workstation using Maven, a local Git repository was created, then a
+remote Git repository was created on github.com.
 
 1. create maven project from the command line
 
@@ -40,6 +39,19 @@ was created on github.com.
   git push -u origin master
 
 4. NetBeans 8.0.2
+
+  Using the Linux command line:
+
+    cd ~/Desktop/Projects
+    mv cn_rss_poller cn_rss_poller_orig
+    mkdir cn_rss_poller_nb
+    cd cn_rss_poller_nb
+    git clone github.com:RobertBWeidlich/NRT_RSS_Stream
+
+  Start Netbeans
+
+    Projects Window --right-click--> Maven -> Project with Existing POM ->
+      Finish -> drill down into ~/Desktop/Projects/cn_rss_poller_nb
 
 5. Eclipse
 
