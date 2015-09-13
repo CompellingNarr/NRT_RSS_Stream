@@ -5,6 +5,8 @@ These are step-by-step notes on how this project was created on a Linux
 workstation using Maven, a local Git repository was created, then a
 remote Git repository was created on github.com.
 
+Additional instructions are included to create other remote git repos.
+
 1. create maven project from the command line
 
   cd ~/Desktop/Projects
@@ -33,12 +35,18 @@ remote Git repository was created on github.com.
   Refer to:
     https://help.github.com/articles/generating-ssh-keys/
   and
-    https://github.com/settings/ssh
+    https://github.com/settings/sshgit clone git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
 
   git remote add origin git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
   git push -u origin master
 
-4. NetBeans 8.0.2
+4. Create local git repo on another Linux workstation from the Github remote
+
+  Create and install SSH key on the workstation (see step #3)
+
+  git clone git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
+
+5. NetBeans 8.0.2
 
   Using the Linux command line:
 
@@ -53,7 +61,11 @@ remote Git repository was created on github.com.
     Projects Window --right-click--> Maven -> Project with Existing POM ->
       Finish -> drill down into ~/Desktop/Projects/cn_rss_poller_nb
 
-5. Eclipse
+6. Eclipse
 
-6. IntelliJ
+7. IntelliJ
+
+8. Windows?
+
+9. Mac?
 
