@@ -1,5 +1,8 @@
 package com.cn.nrt_feed;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 /**
  * @author: rbw
  * 
@@ -8,6 +11,8 @@ package com.cn.nrt_feed;
  */
 public class CnRssPoller
 {
+     static Logger log4j2 = LogManager.getLogger();
+
     /**
      * get data from RSS feed
      * 
@@ -15,12 +20,15 @@ public class CnRssPoller
      * @param outPathName - where to store RSS data
      */
     CnRssPoller(String urlArg, String outPathNameArg) {
+        log4j2.trace("CnRssPoller(\"" + urlArg + "\", \""+
+                outPathNameArg + "\")");
         
     }
     
     public static void main( String[] args )
     {
-        final String url =         "";
+        final String url =
+                "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
         final String outPathName = "/tmp/cn_rss_test_data.xml";
         CnRssPoller crp = new CnRssPoller(url, outPathName);
         
