@@ -17,19 +17,20 @@ Additional instructions are included to create other remote git repositories.
     -DarchetypeArtifactId=maven-archetype-quickstart
 
     version: 0.0.20150604.2030
-```
-
   cd cn_rss_poller
+```
   [Refactor -- change "App.java" to "CnRssPoller.java"        ]
   [         -- change "AppTest.java" to "CnRssPollerTest.java"]
 
 2. create local git repo from the command line
 
+```
   git init
   git add pom.xml
   git add src/main/java/com/cn/nrt_feed/CnRssPoller.java
   git add src/test/java/com/cn/nrt_feed/CnRssPollerTest.java
   git commit
+```
 
 3. CL - push local git repo to Github remote
 
@@ -39,32 +40,40 @@ Additional instructions are included to create other remote git repositories.
   and
     https://github.com/settings/sshgit
 
+```
   git remote add origin git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
   git push -u origin master
+```
 
 4. Create local git repo on another Linux workstation from the Github remote
 
   Create and install SSH key on the workstation (see step #3)
 
+```
   git clone git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
 
+```
 5. NetBeans 8.0.2
 
   Using the Linux command line:
 
+```
     cd ~/Desktop/Projects
     mv cn_rss_poller cn_rss_poller_orig
     #mkdir cn_rss_poller_nb
     #cd cn_rss_poller_nb
     git clone github.com:RobertBWeidlich/NRT_RSS_Stream
     cd ~/Desktop/Projects/
+```
 
 5. NetBeans 8.1
 
   Using the Linux command line:
 
+```
     cd ~/Desktop/Projects/gh_nb
     git clone git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
+```
 
   Start Netbeans
 
@@ -93,9 +102,12 @@ Additional instructions are included to create other remote git repositories.
 
  3. Revisit Naming convention
 
+```
     Github Name:              github.com/RobertBWeidlich/NRT_RSS_Stream
     Maven project.groupId:    com.cn.nrt_feed
     Maven project.artifactId: cn_rss_poller
     Maven project.name:       cn_rss_poller
     Application FQN:          com.cn.nrt_feed.CnRssPoller
+```
+
 
