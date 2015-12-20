@@ -35,6 +35,6 @@ public class CnRssPoller
                 "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
         final String outPathName = "/tmp/cn_rss_test_data.xml";
         CnRssPoller crp = new CnRssPoller(url, outPathName);
-        System.out.println( "Hello World! - 1158" );
+        System.out.println( "Hello World! - 1656" );
     }
 }
