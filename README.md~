@@ -22,8 +22,4 @@ java -cp ./target/cn_rss_poller-0.0.20151220.1715-SNAPSHOT.jar com.cn.nrt_feed.C
 TBD
 ```
 
-test - 20151220.2053
-
-
-
 
