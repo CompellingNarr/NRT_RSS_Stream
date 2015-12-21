@@ -11,7 +11,7 @@ import org.apache.logging.log4j.LogManager;
  */
 public class CnRssPoller
 {
-     //static Logger log4j2 = LogManager.getLogger();
+     static Logger log4j2 = LogManager.getLogger();
 
     /**
      * get data from RSS feed
@@ -20,12 +20,9 @@ public class CnRssPoller
      * @param outPathName - where to store RSS data
      */
     CnRssPoller(String urlArg, String outPathNameArg) {
-/*
- *  todo: fix log4j2
- *
+
         log4j2.trace("CnRssPoller(\"" + urlArg + "\", \""+
                 outPathNameArg + "\")");
-*/
         
     }
     
