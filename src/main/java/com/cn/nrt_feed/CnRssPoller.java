@@ -2,6 +2,9 @@ package com.cn.nrt_feed;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+
 
 /**
  * @author: rbw
@@ -23,6 +26,11 @@ public class CnRssPoller
 
         log4j2.trace("CnRssPoller(\"" + urlArg + "\", \""+
                 outPathNameArg + "\")");
+        
+        HttpGet httpget = new HttpGet(urlArg);
+        String  data =    httpget.getURI().toString();
+        
+        int a = 7;
         
     }
     
