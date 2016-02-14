@@ -12,6 +12,9 @@ import org.apache.http.client.methods.HttpGet;
  * Get data from an RSS feed.  Designed to be run as a thread.
  *
  */
+
+// test
+
 public class CnRssPoller
 {
      static Logger log4j2 = LogManager.getLogger();
