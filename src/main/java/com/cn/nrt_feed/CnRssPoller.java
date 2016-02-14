@@ -7,13 +7,13 @@ import org.apache.http.client.methods.HttpGet;
 
 
 /**
- * @author: rbw
+ * @author: rbw - c62-asus - Sat Feb 13 21:21:42 EST 2016
  * 
  * Get data from an RSS feed.  Designed to be run as a thread.
  *
  */
 
-// test
+// test - 
 
 public class CnRssPoller
 {
@@ -43,6 +43,6 @@ public class CnRssPoller
                 "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
         final String outPathName = "/tmp/cn_rss_test_data.xml";
         CnRssPoller crp = new CnRssPoller(url, outPathName);
-        System.out.println( "Hello World! - 1656" );
+        System.out.println( "Hello World! - 2121" );
     }
 }
