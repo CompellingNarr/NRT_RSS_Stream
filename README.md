@@ -2,8 +2,9 @@
 Periodically poll a list of RSS feeds, then provide an infrastructure
 to process in near real time using Kafka and Storm.
 
-[robertweidlich@RobertWlichsMBP ~]$ date
-Sun Feb 14 18:49:00 EST 2016
+test:
+[weidlich@c62-asus ~]$ date
+Sun Feb 14 18:58:35 EST 2016
 
 ## Command Line
 
@@ -22,11 +23,6 @@ java -cp ./target/cn_rss_poller-0.0.20151220.1715-SNAPSHOT.jar com.cn.nrt_feed.C
 
 ### To run with Maven:
 ```
-TBD
+TBD - see idaas pom.xml on how to run "mvn exec:exec"
 ```
-
-test - 20151220.2053
-
-
-
 
