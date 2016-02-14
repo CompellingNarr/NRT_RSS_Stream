@@ -1,6 +1,5 @@
 ## Bootstrapping the NRT_RSS_Stream project
 
-
 These are step-by-step notes on how this project was created on a Linux
 workstation using Maven, a local Git repository was created, then a
 remote Git repository was created on github.com.
@@ -91,6 +90,8 @@ Additional instructions are included to create other remote git repositories.
 8. Windows?
 
 9. Mac?
+
+  Install ports or brew (Home Brew), then install maven
 
 10. Command Line (move from README.md)
 
