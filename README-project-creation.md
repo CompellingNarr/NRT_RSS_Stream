@@ -114,9 +114,15 @@ Alternatively..
 
 ##8. IntelliJ
 
-##9. Windows?
+##9. Windows
 
-##10. Mac?
+Install GitHub Windows tools, and then use them to run "bash" and then
+run "Git Shell" to install project from github.com.
+
+##10. Mac
+
+Install Home Brew (brew) or Mac Ports (port), and install Maven.
+Then use command line instructions to install project from github.com
 
 ##11. Command Line (move from README.md)
 
