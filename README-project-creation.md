@@ -1,32 +1,12 @@
-## Bootstrapping the NRT_RSS_Stream project
+# Bootstrapping the NRT_RSS_Stream project
 
 These are step-by-step instructions on how this project was generated,
 and covers:
 
-  1. Create project on local workstation using Maven
-
-  2. Create a local git repository
-
-  3. Create a remote git repository on github.com
-
-  4. Create a local repository on another workstation from the remote
-     github repository
-
-1. Create SSH key for your local workstation, and associate it with your
-  account on github.
-
-    https://help.github.com/articles/generating-an-ssh-key
-
-      Create new ssh key pair if not already created.
-
-    https://github.com/settings/ssh
-
-      Associate your public key with github account
-
-2. create maven project from the command line
+#1. Create project on local workstation using Maven
 
 ````
-  cd ~/Desktop/Projects
+  cd ~/Desktop/Projects/staging
   mvn archetype:generate                                 \
     -DgroupId=com.cn.nrt_feed                            \
     -DartifactId=cn_rss_poller                           \
@@ -35,10 +15,11 @@ and covers:
     version: 0.0.20150604.2030
   cd cn_rss_poller
 ```
-  [Refactor -- change "App.java" to "CnRssPoller.java"        ]
-  [         -- change "AppTest.java" to "CnRssPollerTest.java"]
+Refactor
+  -- change "App.java" to "CnRssPoller.java" 
+  -- change "AppTest.java" to "CnRssPollerTest.java"
 
-3. create local git repo from the command line
+#2. create a local git repo from the command line
 
 ```
   git init
@@ -48,33 +29,47 @@ and covers:
   git commit
 ```
 
-4. CL - push local git repo to Github remote
+#3. Create a remote git repo on github.com
 
-  SSH key from the local Linux machine must be installed on github.
-  Refer to:
-    https://help.github.com/articles/generating-ssh-keys/
-  and
-    https://github.com/settings/sshgit
+Create SSH key for your local workstation, and associate it with your
+account on github.
+
+  Create new ssh key pair if not already created.
+
+    https://help.github.com/articles/generating-an-ssh-key
+
+  Associate your public key with github account
+
+    https://github.com/settings/ssh
+
+
+Push local git repo to Github remote
 
 ```
   git remote add origin git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
   git push -u origin master
 ```
 
-5. Create local git repo on another Linux workstation from the Github remote
+#4. Create local git repo on another Linux workstation from the Github remote
 
-  Create and install SSH key on the workstation (see step #3)
+Create SSH key for your local workstation, and associate it with your
+account on github. (See step #3 above)
 
 ```
   git clone https://github.com/RobertBWeidlich/NRT_RSS_Stream.git
     OR
   git clone github.com:RobertBWeidlich/NRT_RSS_Stream.git
-
 ```
 
-##
-## todo - fix the redundant sections 5.
-##
+Note: try one of the above; if you can not push to remote git repo, try the other
+
+
+
+
+
+
+todo - fix the redundant sections 5.
+
 
 6. NetBeans 8.1
 
@@ -82,7 +77,6 @@ and covers:
 
 ```
     cd ~/Desktop/Projects
-    mv cn_rss_poller cn_rss_poller_orig
     mkdir gh_nb
     cd gh_nb
 
@@ -93,27 +87,23 @@ and covers:
     cd ~/Desktop/Projects/gh_nb/NRT_RSS_Stream
 ```
 
-#6. NetBeans 8.1
-#
-#  Using the Linux command line:
-#
-#```
-#    cd ~/Desktop/Projects/gh_nb
-#    git clone git@github.com:RobertBWeidlich/NRT_RSS_Stream.git
-#```
-
   Start Netbeans
 
-    File -> Open Project -> Desktop/Projects/gh_nb/NRT_RSS_Stream
-    -> Open Project
+```
+  File -> Open Project ->
+  Desktop/Projects/gh_nb/NRT_RSS_Stream ->
+  Open Project
+```
 
-    OR ???
+Alternatively..
 
+```
     Projects Window --right-click--> New Project ->
       Project with Existing POM ->
       Next ->
       Finish -> drill down into ~/Desktop/Projects/gh_nb ->
       Open Project
+```
 
 
 7. Eclipse
