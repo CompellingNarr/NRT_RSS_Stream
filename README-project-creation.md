@@ -3,7 +3,7 @@
 These are step-by-step instructions on how this project was generated,
 and covers:
 
-#1. Create project on local workstation using Maven
+##1. Create project on local workstation using Maven
 
 ````
   cd ~/Desktop/Projects/staging
@@ -19,7 +19,7 @@ Refactor
   -- change "App.java" to "CnRssPoller.java" 
   -- change "AppTest.java" to "CnRssPollerTest.java"
 
-#2. create a local git repo from the command line
+##2. create a local git repo from the command line
 
 ```
   git init
@@ -29,7 +29,7 @@ Refactor
   git commit
 ```
 
-#3. Create a remote git repo on github.com
+##3. Create a remote git repo on github.com
 
 Create SSH key for your local workstation, and associate it with your
 account on github.
@@ -50,7 +50,7 @@ Push local git repo to Github remote
   git push -u origin master
 ```
 
-#4. Create local git repo on another Linux workstation from the Github remote
+##4. Create local git repo on another Linux workstation from the Github remote
 
 Create SSH key for your local workstation, and associate it with your
 account on github. (See step #3 above)
@@ -61,17 +61,11 @@ account on github. (See step #3 above)
   git clone github.com:RobertBWeidlich/NRT_RSS_Stream.git
 ```
 
-Note: try one of the above; if you can not push to remote git repo, try the other
+Note: try one of the above; if you can not push to remote git repo,
+try the other
 
 
-
-
-
-
-todo - fix the redundant sections 5.
-
-
-6. NetBeans 8.1
+##6. NetBeans 8.1
 
   Using the Linux command line:
 
@@ -106,17 +100,17 @@ Alternatively..
 ```
 
 
-7. Eclipse
+##7. Eclipse
 
-8. IntelliJ
+##8. IntelliJ
 
-9. Windows?
+##9. Windows?
 
-10. Mac?
+##10. Mac?
 
-11. Command Line (move from README.md)
+##11. Command Line (move from README.md)
 
-# TODO
+##TODO
 
  1. Convert all Readme file names to README.md and README-xxx.md
 
@@ -131,5 +125,4 @@ Alternatively..
     Maven project.name:       cn_rss_poller
     Application FQN:          com.cn.nrt_feed.CnRssPoller
 ```
-
 
