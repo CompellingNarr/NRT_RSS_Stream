@@ -1,7 +1,17 @@
 # Bootstrapping the NRT_RSS_Stream project
 
-These are step-by-step instructions on how this project was generated,
-and covers:
+This documents covers the following:
+
+  -- Creation of project using Maven
+
+  -- Creation of local git repo
+
+  -- Creation of remote git repo on github.com
+
+  -- How to clone project to other local git repos
+
+  -- How to work on project using Unix command line (CL) tools, as well as IDEs
+
 
 ##1. Create project on local workstation using Maven
 
@@ -112,11 +122,7 @@ Alternatively..
 
 ##TODO
 
- 1. Convert all Readme file names to README.md and README-xxx.md
-
- 2. Convert all Readme files to Markdown
-
- 3. Revisit Naming convention
+ 1. Revisit naming convention
 
 ```
     Github Name:              github.com/RobertBWeidlich/NRT_RSS_Stream
