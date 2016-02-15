@@ -3,8 +3,8 @@ Periodically poll a list of RSS feeds, then provide an infrastructure
 to process in near real time using Kafka and Storm.
 
 test:
-[weidlich@c62-asus ~]$ date
-Sun Feb 14 18:58:35 EST 2016
+Windows 10 - Basement
+7:07 PM - 2/14/2016
 
 ## Command Line
 
