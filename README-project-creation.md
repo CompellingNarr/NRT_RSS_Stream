@@ -29,6 +29,8 @@ Refactor
   -- change "App.java" to "CnRssPoller.java" 
   -- change "AppTest.java" to "CnRssPollerTest.java"
 
+  mvn clean install
+
 ##2. Create a local git repo from the command line
 
 ```
