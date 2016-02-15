@@ -29,7 +29,7 @@ Refactor
   -- change "App.java" to "CnRssPoller.java" 
   -- change "AppTest.java" to "CnRssPollerTest.java"
 
-##2. create a local git repo from the command line
+##2. Create a local git repo from the command line
 
 ```
   git init
