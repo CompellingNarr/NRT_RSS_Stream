@@ -2,29 +2,52 @@
 
 This documents covers the following:
 
-  -- Creation of project using Maven
+* Creation of project using Maven
 
-  -- Creation of local git repo
+* Creation of local git repo
 
-  -- Creation of remote git repo on github.com
+* Creation of remote git repo on github.com
 
-  -- How to clone project to other local git repos
+* How to clone project to other local git repos
 
-  -- How to work on project using Unix command line (CL) tools, as well as IDEs
+* How to work on project using Unix command line (CL) tools, as well as IDEs
 
 
 ##1. Create project on local workstation using Maven
 
-````
-  cd ~/Desktop/Projects/staging
-  mvn archetype:generate                                 \
-    -DgroupId=com.cn.nrt_feed                            \
-    -DartifactId=cn_rss_poller                           \
-    -DarchetypeArtifactId=maven-archetype-quickstart
 
-    version: 0.0.20150604.2030
-  cd cn_rss_poller
+```javascript  
+var s = "JavaScript syntax highlighting";  
+alert(s);  
+```  
+
 ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+
+
+```
+  abc  
+  def  
+  ghi  
+```
+
+
+
+```
+cd ~/Desktop/Projects/staging  
+mvn archetype:generate                                 \  
+  -DgroupId=com.cn.nrt_feed                            \  
+  -DartifactId=cn_rss_poller                           \  
+  -DarchetypeArtifactId=maven-archetype-quickstart  
+  
+  version: 0.0.20150604.2030  
+cd cn_rss_poller  
+```
+
 Refactor
   -- change "App.java" to "CnRssPoller.java" 
   -- change "AppTest.java" to "CnRssPollerTest.java"
@@ -116,6 +139,10 @@ Alternatively..
 
 ##8. IntelliJ
 
+ * Startup IntelliJ (this documentation based on IntelliJ 15.0.2)
+
+
+
 ##9. Windows
 
 Install GitHub Windows tools, and then use them to run "bash" and then
@@ -139,4 +166,7 @@ Then use command line instructions to install project from github.com
     Maven project.name:       cn_rss_poller
     Application FQN:          com.cn.nrt_feed.CnRssPoller
 ```
+
+Last edited by rbw - Mon Feb 15 13:14:16 PST 2016
+
 
