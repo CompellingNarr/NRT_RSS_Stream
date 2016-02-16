@@ -3,10 +3,11 @@ Periodically poll a list of RSS feeds, then provide an infrastructure
 to process in near real time using Kafka and Storm.
 
 test:
+~~~
 [cloudera@quickstart ~]$ date
 Sun Feb 14 16:41:53 PST 2016
 [cloudera@quickstart ~]$ 
-
+~~~
 
 ## Command Line
 

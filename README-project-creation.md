@@ -13,7 +13,7 @@ This documents covers the following:
 * How to work on project using Unix command line (CL) tools, as well as IDEs
 
 
-##1. Create project on local workstation using Maven
+## 1. Create project on local workstation using Maven
 ```
 cd ~/Desktop/Projects/staging  
 mvn archetype:generate                                 \  
@@ -34,7 +34,7 @@ Refactor
   mvn clean install
 ```
 
-##2. Create a local git repo from the command line
+## 2. Create a local git repo from the command line
 
 ```
   git init
@@ -44,7 +44,7 @@ Refactor
   git commit
 ```
 
-##3. Create a remote git repo on github.com
+## 3. Create a remote git repo on github.com
 
 Create SSH key for your local workstation, and associate it with your
 account on github.
@@ -65,7 +65,7 @@ Push local git repo to Github remote
   git push -u origin master
 ```
 
-##4. Create local git repo on another Linux workstation from the Github remote
+## 4. Create local git repo on another Linux workstation from the Github remote
 
 Create SSH key for your local workstation, and associate it with your
 account on github. (See step #3 above)
@@ -80,7 +80,7 @@ Note: try one of the above; if you can not push to remote git repo,
 try the other
 
 
-##6. NetBeans 8.1
+## 6. NetBeans 8.1
 
   Using the Linux command line:
 
@@ -115,13 +115,31 @@ Alternatively..
 ```
 
 
-##7. Eclipse
+## 7. Eclipse
 
-##8. IntelliJ
+## 8. IntelliJ
 
- * Startup IntelliJ (this documentation based on IntelliJ 15.0.3)
- * `File -> New -> Project from Version Control -> Github`
- * In the `Clone Repo` Window:
+### Prerequisites:
+
+1. Install IntelliJ (this documentation based on IntelliJ 15.0.3)
+
+2. Set up license
+
+3. Install git
+
+4. Add Plugins:
+    * git (generally not installed by default on Windows workstations)
+    * IdeaVim
+    * Python
+    * Markdown
+
+### Create local git repo in IntelliJ environment
+
+1. Startup IntelliJ
+
+2. `File -> New -> Project from Version Control -> Github`
+
+3. In the `Clone Repo` Window:
 ```
 Git Repo URL:     https://github/RobertBWeidlich/NRT_RSS_Stream.git
 Parent Directory: /home/weidlich/Desktop/Projects/Projects2016/gh_ij
@@ -129,25 +147,26 @@ Directory Name:   NRT_RSS_Stream
 ```
 Press the `Clone` Button
 
-If IntelliJ asks to add the file `.idea/vcs.xml` to git, accept (??)
+4. If IntelliJ asks to add the file `.idea/vcs.xml` to git, accept (??)
 
-Add the `gtm` plugin to IntelliJ
+5. Build Project (todo: elaborate)
+
+6. Run Project (todo: elaborate)
 
 
-
-##9. Windows
+## 9. Windows
 
 Install GitHub Windows tools, and then use them to run "bash" and then
 run "Git Shell" to install project from github.com.
 
-##10. Mac
+## 10. Mac
 
 Install Home Brew (brew) or Mac Ports (port), and install Maven.
 Then use command line instructions to install project from github.com
 
-##11. Command Line (move from README.md)
+## 11. Command Line (move from README.md)
 
-##TODO
+## TODO
 
  1. Revisit naming convention
 
@@ -159,6 +178,6 @@ Then use command line instructions to install project from github.com
     Application FQN:          com.cn.nrt_feed.CnRssPoller
 ```
 
-Last edited by rbw - Mon Feb 15 13:14:16 PST 2016
+Last edited by rbw - Tue Feb 16 13:25:00 EST 2016
 
 
