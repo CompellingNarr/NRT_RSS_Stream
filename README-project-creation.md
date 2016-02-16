@@ -14,29 +14,6 @@ This documents covers the following:
 
 
 ##1. Create project on local workstation using Maven
-
-
-```javascript  
-var s = "JavaScript syntax highlighting";  
-alert(s);  
-```  
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-
-
-
-```
-  abc  
-  def  
-  ghi  
-```
-
-
-
 ```
 cd ~/Desktop/Projects/staging  
 mvn archetype:generate                                 \  
@@ -44,15 +21,18 @@ mvn archetype:generate                                 \
   -DartifactId=cn_rss_poller                           \  
   -DarchetypeArtifactId=maven-archetype-quickstart  
   
-  version: 0.0.20150604.2030  
+  [when prompted, set version, in the form "0.0.20160215.1855"
+  
 cd cn_rss_poller  
 ```
 
 Refactor
+```
   -- change "App.java" to "CnRssPoller.java" 
   -- change "AppTest.java" to "CnRssPollerTest.java"
 
   mvn clean install
+```
 
 ##2. Create a local git repo from the command line
 
@@ -139,7 +119,19 @@ Alternatively..
 
 ##8. IntelliJ
 
- * Startup IntelliJ (this documentation based on IntelliJ 15.0.2)
+ * Startup IntelliJ (this documentation based on IntelliJ 15.0.3)
+ * `File -> New -> Project from Version Control -> Github`
+ * In the `Clone Repo` Window:
+```
+Git Repo URL:     https://github/RobertBWeidlich/NRT_RSS_Stream.git
+Parent Directory: asdfasdf
+Directory Name:   NRT_RSS_Stream
+```
+Press the `Clone` Button
+
+If IntelliJ asks to add the file `.idea/vcs.xml` to git, accept (??)
+
+Add the `gtm` plugin to IntelliJ
 
 
 

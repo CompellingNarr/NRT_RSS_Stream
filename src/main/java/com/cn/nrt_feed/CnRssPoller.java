@@ -11,6 +11,8 @@ import org.apache.http.client.methods.HttpGet;
  * 
  * Get data from an RSS feed.  Designed to be run as a thread.
  *
+ * Test: 2/15/2016 - 1923
+ *
  */
 
 // test - 
@@ -22,8 +24,8 @@ public class CnRssPoller
     /**
      * get data from RSS feed
      * 
-     * @param url - RSS feed URL
-     * @param outPathName - where to store RSS data
+     * @param urlArg -         RSS feed URL
+     * @param outPathNameArg - where to store RSS data
      */
     CnRssPoller(String urlArg, String outPathNameArg) {
 
