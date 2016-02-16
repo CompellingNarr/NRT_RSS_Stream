@@ -124,7 +124,7 @@ Alternatively..
  * In the `Clone Repo` Window:
 ```
 Git Repo URL:     https://github/RobertBWeidlich/NRT_RSS_Stream.git
-Parent Directory: asdfasdf
+Parent Directory: /home/weidlich/Desktop/Projects/Projects2016/gh_ij
 Directory Name:   NRT_RSS_Stream
 ```
 Press the `Clone` Button
