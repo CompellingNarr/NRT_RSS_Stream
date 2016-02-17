@@ -21,7 +21,7 @@ mvn clean install
 Note: check name of jar file in ./target -- timestamp may be updated.
 ```
 cd .../NRT_RSS_Stream
-java -cp ./target/cn_rss_poller-0.0.20151220.1715-SNAPSHOT.jar com.cn.nrt_feed.CnRssPoller
+java -cp ./target/cn_rss_poller-0.0.20160215.1900-SNAPSHOT.jar com.cn.nrt_feed.CnRssPoller
 ```
 
 ### To run with Maven:
