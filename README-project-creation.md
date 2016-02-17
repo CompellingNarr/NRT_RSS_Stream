@@ -79,10 +79,9 @@ account on github. (See step #3 above)
 Note: try one of the above; if you can not push to remote git repo,
 try the other
 
+## 5. Command Line Interface (CLI) (move from README.md)
 
-## 6. NetBeans 8.1
-
-  Using the Linux command line:
+  Create the local repo using the Linux command line:
 
 ```
     cd ~/Desktop/Projects
@@ -95,6 +94,11 @@ try the other
 
     cd ~/Desktop/Projects/gh_nb/NRT_RSS_Stream
 ```
+
+
+## 6. NetBeans 8.1
+
+  Create the repo using the Linux command line (see step #5)
 
   Start Netbeans
 
@@ -164,8 +168,6 @@ run "Git Shell" to install project from github.com.
 Install Home Brew (brew) or Mac Ports (port), and install Maven.
 Then use command line instructions to install project from github.com
 
-## 11. Command Line (move from README.md)
-
 ## TODO
 
  1. Revisit naming convention
@@ -178,6 +180,5 @@ Then use command line instructions to install project from github.com
     Application FQN:          com.cn.nrt_feed.CnRssPoller
 ```
 
-Last edited by rbw - Tue Feb 16 13:25:00 EST 2016
-
+Last edited by rbw - Tue Feb 16 19:54:21 EST 2016
 

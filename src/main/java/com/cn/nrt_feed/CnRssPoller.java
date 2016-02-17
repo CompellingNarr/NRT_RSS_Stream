@@ -5,6 +5,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 
+import java.net.URI;
+
 
 /**
  * @author: rbw - c62-asus - Sat Feb 13 21:21:42 EST 2016
@@ -28,13 +30,12 @@ public class CnRssPoller
      * @param outPathNameArg - where to store RSS data
      */
     CnRssPoller(String urlArg, String outPathNameArg) {
-
         log4j2.trace("CnRssPoller(\"" + urlArg + "\", \""+
                 outPathNameArg + "\")");
         
         HttpGet httpget = new HttpGet(urlArg);
         String  data =    httpget.getURI().toString();
-        
+
         int a = 7;
         
     }
