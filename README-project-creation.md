@@ -2,7 +2,7 @@
 
 This documents covers the following:
 
-* Creation of project using Maven
+* Creation of project on local workstation using Maven
 
 * Creation of local git repo
 
