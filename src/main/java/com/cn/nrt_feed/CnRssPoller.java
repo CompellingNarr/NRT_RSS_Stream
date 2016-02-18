@@ -17,8 +17,6 @@ import java.net.URI;
  *
  */
 
-// test - 
-
 public class CnRssPoller
 {
      static Logger log4j2 = LogManager.getLogger();
