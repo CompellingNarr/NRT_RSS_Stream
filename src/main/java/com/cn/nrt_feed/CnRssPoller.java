@@ -34,6 +34,11 @@ public class CnRssPoller
         HttpGet httpget = new HttpGet(urlArg);
         String  data =    httpget.getURI().toString();
 
+        System.out.println("data: " + data);
+        System.out.println();
+
+        //aa
+
         int a = 7;
         
     }
@@ -44,6 +49,6 @@ public class CnRssPoller
                 "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
         final String outPathName = "/tmp/cn_rss_test_data.xml";
         CnRssPoller crp = new CnRssPoller(url, outPathName);
-        System.out.println( "Hello World! - 2121" );
+        System.out.println( "Hello World! - 7/10/2016 - 2030" );
     }
 }
