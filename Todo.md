@@ -12,24 +12,51 @@ Last edited Sun Jul 17 15:05:30 EDT 2016 by rbw
 
   Handle all of the following:
 
-* Operation Systems
-** Linux
-** Windows
-** MacOS
+1. Operating Systems
+* Linux
+* Windows
+* MacOS
+2. Multiple IDEs
+* IntelliJ
+* NetBeans
+* Eclipse
 
-* Multiple IDEs
-** IntelliJ
-** NetBeans
-** Eclipse
+3. Git
 
-* Git
+4. Maven
 
-* Maven
+5. JUnit
 
-* JUnit
+6. Log4j
 
-* Log4j
 
+
+1. Lists in a list item:
+    - Indented four spaces.
+        * indented eight spaces.
+    - Four spaces again.
+2.  Multiple paragraphs in a list items:
+    It's best to indent the paragraphs four spaces
+    You can get away with three, but it can get
+    confusing when you nest other things.
+    Stick to four.
+
+    We indented the first line an extra space to align
+    it with these paragraphs. In real use, we might do
+    that to the entire list so that all items line up.
+
+    This paragraph is still part of the list item, but it looks messy to humans. So it's a good idea to wrap your nested paragraphs manually, as we did with the first two.
+
+3. Blockquotes in a list item:
+
+    > Skip a line and
+    > indent the >'s four spaces.
+
+4. Preformatted text in a list item:
+
+        Skip a line and indent eight spaces.
+        That's four spaces for the list
+        and four to trigger the code block.
 ## NRS-002 - Fix log4j on Linux
 
 log4j seems to work for Windows but not for Linux.  What about Mac?
@@ -38,3 +65,5 @@ log4j seems to work for Windows but not for Linux.  What about Mac?
 
 Subdirectories for data files and log files - will be different for each
 environment (Linux, Windows, MacOS)
+
+
