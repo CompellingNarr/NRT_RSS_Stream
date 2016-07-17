@@ -4,22 +4,24 @@ Last edited Sun Jul 17 15:05:30 EDT 2016 by rbw
 
 ## NRS-001 - Documentation - Reorganize:
 
-  README.md - Basic Introduction, how to get started
+README.md - Basic Introduction, how to get started
 
-  README-project-creation.md - Basic Bootstrapping
+README-project-creation.md - How the project was built from scratch.
 
-  README-dev-environments - How to handle different development environments
+README-dev-environments - How to handle different development environments
 
-  Handle all of the following:
+Handle all of the following:
 
-1. Operating Systems
-* Linux
-* Windows
-* MacOS
-2. Multiple IDEs
-* IntelliJ
-* NetBeans
-* Eclipse
+1. Operating Systems:
+    - Linux
+        * Centos
+        * Ubuntu
+    - Windows
+    - MacOS
+2. Multiple IDEs:
+    - IntelliJ
+    - NetBeans
+    - Eclipse
 
 3. Git
 
@@ -29,7 +31,7 @@ Last edited Sun Jul 17 15:05:30 EDT 2016 by rbw
 
 6. Log4j
 
-
+### Note the following is example Markdown formatting:
 
 1. Lists in a list item:
     - Indented four spaces.
@@ -57,13 +59,21 @@ Last edited Sun Jul 17 15:05:30 EDT 2016 by rbw
         Skip a line and indent eight spaces.
         That's four spaces for the list
         and four to trigger the code block.
+
+### End of example Markdown formattingi
+
 ## NRS-002 - Fix log4j on Linux
 
 log4j seems to work for Windows but not for Linux.  What about Mac?
 
-## NRS-003 - pom.xml - set up different profiles for Linux, Windows, and Mac
+## NRS-003 - Maven profiles:
+In pom.xml, set up different Maven profiles for Linux, Windows,
+and Mac
 
 Subdirectories for data files and log files - will be different for each
 environment (Linux, Windows, MacOS)
 
+7. Maven Profiles For Mac, Windows, and Linux.
+    Each environment may have differnet subdirectories for config and
+    data files.
 
